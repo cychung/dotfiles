@@ -327,7 +327,7 @@ else
 fi
 
 
-source ~/github/zsh-git-prompt/zshrc.sh
+source ~/dotfiles/zsh/zsh-git-prompt/zshrc.sh
 #PROMPT='%B%m%~%b$(git_super_status) %# '
 #PS1="${host_prompt} ${jobs_total}${directory_prompt}${error_total}%* ${post_prompt} "
 #PROMPT="${host_prompt} ${jobs_total}${directory_prompt}${error_total}%* ${post_prompt} "
@@ -429,8 +429,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 export BR_ROOT=$HOME/git
 
-
-export YGIT=ssh://git@git.corp.yahoo.com
 
 
 export NVM_DIR="/Users/chunyeung/.nvm"
